@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>real portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/51b199799f.js" crossorigin="anonymous"></script><!---icon ke liye ---->
+</head>
+
+<body>
+    <!----- Page 1 photo aur 3dot wala jo starting me hai ----->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/storage/emulated/0/Download/hq720_1-removebg-preview.png" class="log" alt="logo"
+                    width="150px">
+                <ul id="sidemenu">
+                    <li><img src="Darkmoon.jpg" id="icon1"></li>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI/ML engineer</p>
+                <h1>HI... i am  <span data-text=" aniket_gupta "> Aniket_gupta</span><br>from mumbai</h1>
+            </div>
+        </div>
+
+        <!----------about ke liye ------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><!------image ke liye ------->
+                    <img src="/storage/emulated/0/WhatsApp/Media/WhatsApp Images/IMG_20240210_193815.jpg"
+                        alt="apna photo line no.34">
+                </div>
+                <!-----content text------>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1><!----- about ke liye --->
+                    <p>I am Aniket gupta, Currently pursuing with BSc IT, Proficient in C++ with OOPS, SQL, and Python,
+                        I also have design skills using Canva, and other skills i.e. Microsoft Excel, power point, and
+                        database management system.<br><br>
+                        Passionate about continuous learning in my daily life, I believe knowledge is the key to
+                        success. I enjoy applying gained knowledge practically.I thrive in an environment were people
+                        value daily learning, as time is precious to me.<br><br>
+                        I invest my time in gaining activities.committed to giving my best in completing tasks.I thrive
+                        in an environment where people value daily learning, as time is presious to me, I inveat my time
+                        in gaining knowledge and engaging in meaningful activities. Committed to gaining my best in
+                        completing tasks</p>
+
+                    <!----- about ke niche jo theen tab title hai uske liye hai ------>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <!----script ke function ke liye Onclick name banaya---->
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                        <p class="tab-links" onclick="opentab('experience')">expreience</p>
+                    </div>
+                    <!--- skills ke liye--->
+                  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML ENGINEER</span><br>coming soon</li>
+                            <li><span>WEB DEVELOPER</span><br>HTML,CSS,JAVASCRIPT<br>FROM B.K.BIRLA COLLEGE KALYAN (W)
+                            </li>
+                            <li><span>C++ DEVELOPER</span><br>FROM B.K.BIRLA COLLEGE KALYAN (W)</li>
+                            <li><span>PYTHON DEVELOPER</span><br>FROM B.K.BIRLA COLLEGE KALYAN (W)</li>
+                            <li><span>DATA STRUCTURE AND ALGORITHM</span><br>FROM B.K.BIRLA COLLEGE KALYAN (W)</li>
+                            <li><span>MICROSOFT EXCEL</span><br>Smt. Chandibai Himathmal Mansukhani College(ulhasanagar)
+                            </li>
+                            <li><span>SKETCHING </span><br>Sankalp Hindi High School (vithalwadi)</li>
+                            <li><span>PROBLEM SOLVING</span><br></li>
+                            <li><span>COMMUNICATION</span><Br></li>
+                            <li><span>TEAM BUILDING</span><Br></li>
+                            <li><span>CRITICAL THINKING</span><br></li>
+                            <li><span>LEADERSHIP</span><Br></li>
+                        </ul>
+                    </div>
+                    <!----- education ke liye ----->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSc IT (Bachelor of Science Information Technology) FROM</span><br>B.K.Birla
+                                college kalyan(W)</li>
+                            <li><span>HSC (Higher Secondary Certificate) FROM</span><br>Smt. Chandibai Himathmal
+                                Mansukhani College (ulhasanagar)</li>
+                            <li><span>SSC (Secondary School Certificate) FROM</span><br>Sankalp Hindi High School
+                                (vithalwadi)</li>
+                        </ul>
+                    </div>
+                    <!-------experience ke liye ---->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>ai/ml engeener</span><br>coming soon</li>
+                            <li><span>web developer</span><br>coming soon</li>
+                            <li><span>c++ developer</span><br>coming soon</li>
+                            <li><span>python developer</span><br>coming soon</li>
+                        </ul>
+                    </div>
+                              
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------ service page ------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i><!--ye line google se liya hai icon lagane ke liye --->
+                    <h2>AI/ML ENGINEER</h2>
+                    <p>ai/ml pe description likhna hai idhar pe </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>WEB DEVELOPER</h2>
+                    <p>able to create :- <BR>forms , web page ,..etc</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>C++ DEVELOPER</h2>
+                    <p>basic knowledge about OOPS concept and data structures.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>PYTHON ENGINEER</h2>
+                    <p>LEARNING AI/ML IN PYTHON</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----portfolio -->
+    <div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">my work</h1>
+                <div class="work-list">
+
+                    <div class="work">
+                        <!-- work ke img ko dene ke kile  -->
+                        <!-- wokr1 -->
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Y_-5OBtra3r98B8TG2VmNwHaDj&pid=Api&P=0&h=180"
+                            alt="work imgae1">
+
+                        <div class="layer">
+                            <h3 style="color:#fff">ai ml work </h3>
+                            <p style="color:#fff">apne work ke bareme kuch dena </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+
+                    <!-- work2 -->
+                    <div class="work">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.CJxvhZKWIN-rEHKK-5_oKAHaFL&pid=Api&P=0&h=180"
+                            alt="work imgae2">
+
+                        <div class="layer">
+                            <h3 style="color:#fff">web development work </h3>
+                            <p style="color:#fff">apne work ke bareme kuch dena </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+
+                    <!-- work 3 -->
+                    <div class="work">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.-svG1v-wcBkD4y5XGJFDYgHaDt&pid=Api&P=0&h=180"
+                            alt="work imgae3">
+                        <div class="layer">
+                            <h3 style="color:#fff">c++ work </h3>
+                            <p style="color:#fff">apne work ke bareme kuch dena </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                  
+                  <!-- work 4 -->
+                    <div class="work">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.-svG1v-wcBkD4y5XGJFDYgHaDt&pid=Api&P=0&h=180"
+                            alt="work imgae4">
+                        <div class="layer">
+                            <h3 style="color:#fff">PYTHON WORK </h3>
+                            <p style="color:#fff">apne work ke bareme kuch dena </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ye mene mere projectke liye diya hai as a learn more ke liye  -->
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!--      contect    -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me </h1>
+
+                    <p> <i class="fa-solid fa-paper-plane"></i>email:- aniketgupta721@gmail.com</p>
+
+                    <p><i class="fa-solid fa-phone"></i>contact no:- 8657115926</p>
+
+                    <!-- above apna social media ka icon lagana hai like insta, facebook,lionkedin etc....  -->
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/aniket_gupta721/"><i class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/aniket-gupta-4897a12b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="cv ka link " download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="enter your name ">
+                        <input type="email" name="email" placeholder="enter your email">
+
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © <i class="fa-solidfa-heart"><i>aniket gupta </p>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
