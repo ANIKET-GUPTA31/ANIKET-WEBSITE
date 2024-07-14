@@ -456,7 +456,7 @@ nav .fa-solid {
     }
 
     .header-text {
-        margin-top: 100%;
+        margin-top: 60%;
         font-size: 16px;
     }
 
@@ -523,5 +523,11 @@ nav .fa-solid {
 
     .copyright {
         font-size: 14px;
+    }
+}
+@media only screen and (max-width:600px){
+       .header-text {
+        margin-top: 100%;
+        font-size: 16px;
     }
 }
